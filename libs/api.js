@@ -1,7 +1,7 @@
 import 'isomorphic-fetch';
 
 const siteName = 'reactwordpresstest.wordpress.com';
-const baseUrl = `https://public-api.wordpress.com/rest/v1.1/sites/${siteName}`;
+const baseUrl = `https://public-api.wordpress.com/wp/v2/sites/${siteName}`;
 
 const api = {
   site: {
