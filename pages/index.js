@@ -37,7 +37,7 @@ class HomePage extends Component {
             if (firstDate > secondDate) return 1;
             return 0;
           }).reverse().map(post => (
-            <Post {...post} key={post.ID} />
+            <Post {...post} key={post.id} />
           ))
         }
       </Page>
