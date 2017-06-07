@@ -18,7 +18,7 @@ function Post(props) {
         <div className="panel-footer">
           <Link
             as={`/p/${props.ID}/${props.slug}`}
-            href={`/post?id=${props.ID}`}
+            href={`/post?id=${props.id}`}
           >
             Leer más
           </Link>
